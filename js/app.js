@@ -20,7 +20,7 @@ todoBtn.addEventListener("click", function (event) {
   // Reset the value
   input.value = "";
   // don't add empty task
-  if (li.innerText == "") {
+  if (li.innerText == '') {
     target.value = "";
   }
   // creating complete button
